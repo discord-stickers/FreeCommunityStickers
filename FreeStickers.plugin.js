@@ -67,8 +67,8 @@ module.exports = (() => {
 
             let packs,
             ids
-            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers/packs.json").then(r=>r.json()).then(j=>packs=j);
-            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers/stickerIds.json").then(r=>r.json()).then(j=>ids=j)
+            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers@main/packs.json").then(r=>r.json()).then(j=>packs=j);
+            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers@main/stickerIds.json").then(r=>r.json()).then(j=>ids=j)
             Patcher.instead(WebpackModules.getByProps("getStickerAssetUrl"), "getStickerAssetUrl", (_, [args], orig) => {
                 if (ids[args.id]) return ids[args.id]
                 return orig(args);
