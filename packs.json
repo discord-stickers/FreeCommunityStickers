@@ -1,0 +1,4411 @@
+[{
+    "type": "PACK",
+    "id": "AmongUs",
+    "name": "Among Us",
+    "stickers": [{
+        "id": "ActNatural_AmongUs",
+        "name": "Act Natural - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Busy_AmongUs",
+        "name": "Busy - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Chase_AmongUs",
+        "name": "Chase - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Comfort_AmongUs",
+        "name": "Comfort - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_AmongUs",
+        "name": "Dance - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dead_AmongUs",
+        "name": "Dead - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_AmongUs",
+        "name": "Eating - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ejected_AmongUs",
+        "name": "Ejected - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Emergency_AmongUs",
+        "name": "Emergency - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Facepalm_AmongUs",
+        "name": "Facepalm - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_AmongUs",
+        "name": "Frustrated - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ImOut_AmongUs",
+        "name": "Im Out - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Knife_AmongUs",
+        "name": "Knife - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lava_AmongUs",
+        "name": "Lava - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Mischievous_AmongUs",
+        "name": "Mischievous - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_AmongUs",
+        "name": "Peek - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Report_AmongUs",
+        "name": "Report - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scan_AmongUs",
+        "name": "Scan - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_AmongUs",
+        "name": "Scared - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shhh_AmongUs",
+        "name": "Shhh - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shocked_AmongUs",
+        "name": "Shocked - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sus_AmongUs",
+        "name": "Sus - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "TagTeam_AmongUs",
+        "name": "Tag Team - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_AmongUs",
+        "name": "Thinking - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "You_AmongUs",
+        "name": "You - Among Us",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "CapTheBandit",
+    "name": "Cap The Bandit",
+    "stickers": [{
+        "id": "Affection_CapTheBandit",
+        "name": "Affection - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_CapTheBandit",
+        "name": "Angry - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blank_CapTheBandit",
+        "name": "Blank - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_CapTheBandit",
+        "name": "Blush - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Busy_CapTheBandit",
+        "name": "Busy - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheers_CapTheBandit",
+        "name": "Cheers - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cry_CapTheBandit",
+        "name": "Cry - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_CapTheBandit",
+        "name": "Curious - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_CapTheBandit",
+        "name": "Dance - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dizzy_CapTheBandit",
+        "name": "Dizzy - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Exhausted_CapTheBandit",
+        "name": "Exhausted - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "FingerGuns_CapTheBandit",
+        "name": "Finger Guns - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_CapTheBandit",
+        "name": "Frustrated - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_CapTheBandit",
+        "name": "Hungry - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ImOut_CapTheBandit",
+        "name": "Im Out - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_CapTheBandit",
+        "name": "Laugh - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lazy_CapTheBandit",
+        "name": "Lazy - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_CapTheBandit",
+        "name": "Love - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nauseous_CapTheBandit",
+        "name": "Nauseous - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_CapTheBandit",
+        "name": "Nervous - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_CapTheBandit",
+        "name": "OK - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_CapTheBandit",
+        "name": "On My Way - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Overwhelmed_CapTheBandit",
+        "name": "Overwhelmed - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relax_CapTheBandit",
+        "name": "Relax - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_CapTheBandit",
+        "name": "Relief - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_CapTheBandit",
+        "name": "Sad - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_CapTheBandit",
+        "name": "Scared - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shocked_CapTheBandit",
+        "name": "Shocked - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_CapTheBandit",
+        "name": "Thanks - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_CapTheBandit",
+        "name": "Unamused - Cap The Bandit",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "ChaosCat",
+    "name": "Chaos Cat",
+    "stickers": [{
+        "id": "Attack_ChaosCat",
+        "name": "Attack - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Evil_ChaosCat",
+        "name": "Evil - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Glare_ChaosCat",
+        "name": "Glare - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Gossip_ChaosCat",
+        "name": "Gossip - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Grin_ChaosCat",
+        "name": "Grin - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Horrified_ChaosCat",
+        "name": "Horrified - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ignore_ChaosCat",
+        "name": "Ignore - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Kick_ChaosCat",
+        "name": "Kick - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Knife_ChaosCat",
+        "name": "Knife - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_ChaosCat",
+        "name": "Laugh - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Mischievous_ChaosCat",
+        "name": "Mischievous - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Screaming_ChaosCat",
+        "name": "Screaming - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shaking_ChaosCat",
+        "name": "Shaking - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smirk_ChaosCat",
+        "name": "Smirk - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Taunt_ChaosCat",
+        "name": "Taunt - Chaos Cat",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "CheerfulChoco",
+    "name": "Cheerful Choco",
+    "stickers": [{
+        "id": "Affection_CheerfulChoco",
+        "name": "Affection - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_CheerfulChoco",
+        "name": "Angry - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bath_CheerfulChoco",
+        "name": "Bath - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blank_CheerfulChoco",
+        "name": "Blank - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheeky_CheerfulChoco",
+        "name": "Cheeky - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cold_CheerfulChoco",
+        "name": "Cold - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Comfort_CheerfulChoco",
+        "name": "Comfort - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_CheerfulChoco",
+        "name": "Confused - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dreaming_CheerfulChoco",
+        "name": "Dreaming - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_CheerfulChoco",
+        "name": "Eating - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Embarrassed_CheerfulChoco",
+        "name": "Embarrassed - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Exhausted_CheerfulChoco",
+        "name": "Exhausted - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Go_CheerfulChoco",
+        "name": "Go - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GoodLuck_CheerfulChoco",
+        "name": "Good Luck - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GoodMorning_CheerfulChoco",
+        "name": "Good Morning - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GoodNight_CheerfulChoco",
+        "name": "Good Night - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GotIt_CheerfulChoco",
+        "name": "Got It - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heck_CheerfulChoco",
+        "name": "Heck - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hello_CheerfulChoco",
+        "name": "Hello - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hop_CheerfulChoco",
+        "name": "Hop - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hot_CheerfulChoco",
+        "name": "Hot - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_CheerfulChoco",
+        "name": "Hungry - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_CheerfulChoco",
+        "name": "Laugh - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lazy_CheerfulChoco",
+        "name": "Lazy - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_CheerfulChoco",
+        "name": "Love - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nice_CheerfulChoco",
+        "name": "Nice - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_CheerfulChoco",
+        "name": "No - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OhNo_CheerfulChoco",
+        "name": "Oh No - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Panic_CheerfulChoco",
+        "name": "Panic - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Please_CheerfulChoco",
+        "name": "Please - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Reach_CheerfulChoco",
+        "name": "Reach - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Reflection_CheerfulChoco",
+        "name": "Reflection - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ride_CheerfulChoco",
+        "name": "Ride - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Roll_CheerfulChoco",
+        "name": "Roll - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sing_CheerfulChoco",
+        "name": "Sing - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_CheerfulChoco",
+        "name": "Sleep - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snuggle_CheerfulChoco",
+        "name": "Snuggle - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sorry_CheerfulChoco",
+        "name": "Sorry - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Superstar_CheerfulChoco",
+        "name": "Superstar - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprise_CheerfulChoco",
+        "name": "Surprise - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_CheerfulChoco",
+        "name": "Thanks - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "What_CheerfulChoco",
+        "name": "What - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wow_CheerfulChoco",
+        "name": "Wow - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yay_CheerfulChoco",
+        "name": "Yay - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yes_CheerfulChoco",
+        "name": "Yes - Cheerful Choco",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "ClydeBot",
+    "name": "Clyde Bot",
+    "stickers": [{
+        "id": "Affection_ClydeBot",
+        "name": "Affection - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_ClydeBot",
+        "name": "Angry - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_ClydeBot",
+        "name": "Aww - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_ClydeBot",
+        "name": "Blush - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Busy_ClydeBot",
+        "name": "Busy - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_ClydeBot",
+        "name": "Cheer - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_ClydeBot",
+        "name": "Confused - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_ClydeBot",
+        "name": "Congratulations - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_ClydeBot",
+        "name": "Dance - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Disbelief_ClydeBot",
+        "name": "Disbelief - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Evil_ClydeBot",
+        "name": "Evil - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_ClydeBot",
+        "name": "Laugh - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_ClydeBot",
+        "name": "Love - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nauseous_ClydeBot",
+        "name": "Nauseous - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_ClydeBot",
+        "name": "Nervous - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_ClydeBot",
+        "name": "No - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_ClydeBot",
+        "name": "OK - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_ClydeBot",
+        "name": "On My Way - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Recharge_ClydeBot",
+        "name": "Recharge - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_ClydeBot",
+        "name": "Relief - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_ClydeBot",
+        "name": "Sad - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_ClydeBot",
+        "name": "Scared - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_ClydeBot",
+        "name": "Sleep - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smile_ClydeBot",
+        "name": "Smile - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smirk_ClydeBot",
+        "name": "Smirk - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprise_ClydeBot",
+        "name": "Surprise - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_ClydeBot",
+        "name": "Thanks - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_ClydeBot",
+        "name": "Thinking - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_ClydeBot",
+        "name": "Unamused - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_ClydeBot",
+        "name": "Wave - Clyde Bot",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "ClydeWinter",
+    "name": "Clyde Winter",
+    "stickers": [{
+        "id": "Bored_ClydeWinter",
+        "name": "Bored - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Brows_ClydeWinter",
+        "name": "Brows - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Busy_ClydeWinter",
+        "name": "Busy - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ChefsKiss_ClydeWinter",
+        "name": "Chefs Kiss - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cold_ClydeWinter",
+        "name": "Cold - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cool_ClydeWinter",
+        "name": "Cool - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cozy_ClydeWinter",
+        "name": "Cozy - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Excited_ClydeWinter",
+        "name": "Excited - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Fight_ClydeWinter",
+        "name": "Fight - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Goodnight_ClydeWinter",
+        "name": "Goodnight - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Grimace_ClydeWinter",
+        "name": "Grimace - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ImOut_ClydeWinter",
+        "name": "Im Out - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lonely_ClydeWinter",
+        "name": "Lonely - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_ClydeWinter",
+        "name": "Love - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Morning_ClydeWinter",
+        "name": "Morning - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_ClydeWinter",
+        "name": "On My Way - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_ClydeWinter",
+        "name": "Peek - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Proud_ClydeWinter",
+        "name": "Proud - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ready_ClydeWinter",
+        "name": "Ready - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shocked_ClydeWinter",
+        "name": "Shocked - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sip_ClydeWinter",
+        "name": "Sip - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sneeze_ClydeWinter",
+        "name": "Sneeze - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snowball_ClydeWinter",
+        "name": "Snowball - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snowing_ClydeWinter",
+        "name": "Snowing - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_ClydeWinter",
+        "name": "Thinking - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_ClydeWinter",
+        "name": "Tired - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Warm_ClydeWinter",
+        "name": "Warm - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_ClydeWinter",
+        "name": "Wave - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wow_ClydeWinter",
+        "name": "Wow - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yay_ClydeWinter",
+        "name": "Yay - Clyde Winter",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "CozyNelly",
+    "name": "Cozy Nelly",
+    "stickers": [{
+        "id": "Arrive_CozyNelly",
+        "name": "Arrive - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bouquet_CozyNelly",
+        "name": "Bouquet - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Brews_CozyNelly",
+        "name": "Brews - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Chilling_CozyNelly",
+        "name": "Chilling - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cold_CozyNelly",
+        "name": "Cold - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "CornMaze_CozyNelly",
+        "name": "Corn Maze - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_CozyNelly",
+        "name": "Dance - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eats_CozyNelly",
+        "name": "Eats - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Embarrassed_CozyNelly",
+        "name": "Embarrassed - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "FireCamp_CozyNelly",
+        "name": "Fire Camp - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Football_CozyNelly",
+        "name": "Football - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_CozyNelly",
+        "name": "Frustrated - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GoodMorning_CozyNelly",
+        "name": "Good Morning - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GoodNight_CozyNelly",
+        "name": "Good Night - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Harvest_CozyNelly",
+        "name": "Harvest - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Jump_CozyNelly",
+        "name": "Jump - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Latte_CozyNelly",
+        "name": "Latte - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "LetsGo_CozyNelly",
+        "name": "Lets Go - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_CozyNelly",
+        "name": "Love - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_CozyNelly",
+        "name": "On My Way - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_CozyNelly",
+        "name": "Peek - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Plant_CozyNelly",
+        "name": "Plant - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Reaching_CozyNelly",
+        "name": "Reaching - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_CozyNelly",
+        "name": "Sad - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shrug_CozyNelly",
+        "name": "Shrug - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sipping_CozyNelly",
+        "name": "Sipping - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprise_CozyNelly",
+        "name": "Surprise - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_CozyNelly",
+        "name": "Tired - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_CozyNelly",
+        "name": "Unamused - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Windy_CozyNelly",
+        "name": "Windy - Cozy Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "DoggoReplies",
+    "name": "Doggo Replies",
+    "stickers": [{
+        "id": "100_DoggoReplies",
+        "name": "100 - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "BreakTime_DoggoReplies",
+        "name": "Break Time - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Extra_DoggoReplies",
+        "name": "Extra - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Facts_DoggoReplies",
+        "name": "Facts - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heya_DoggoReplies",
+        "name": "Heya - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "IMissYou_DoggoReplies",
+        "name": "I Miss You - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Mood_DoggoReplies",
+        "name": "Mood - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "NoWorries_DoggoReplies",
+        "name": "No Worries - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OH_DoggoReplies",
+        "name": "OH - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "RIP_DoggoReplies",
+        "name": "RIP - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "SeeYa_DoggoReplies",
+        "name": "See Ya - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "SoundsGood_DoggoReplies",
+        "name": "Sounds Good - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sup_DoggoReplies",
+        "name": "Sup - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_DoggoReplies",
+        "name": "Thanks - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yikes_DoggoReplies",
+        "name": "Yikes - Doggo Replies",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "GraggleTheBrawler",
+    "name": "Graggle The Brawler",
+    "stickers": [{
+        "id": "Affection_GraggleTheBrawler",
+        "name": "Affection - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_GraggleTheBrawler",
+        "name": "Angry - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Anguish_GraggleTheBrawler",
+        "name": "Anguish - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Annoyed_GraggleTheBrawler",
+        "name": "Annoyed - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Awkward_GraggleTheBrawler",
+        "name": "Awkward - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_GraggleTheBrawler",
+        "name": "Aww - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_GraggleTheBrawler",
+        "name": "Cheer - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Chug_GraggleTheBrawler",
+        "name": "Chug - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_GraggleTheBrawler",
+        "name": "Crying - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Disappointed_GraggleTheBrawler",
+        "name": "Disappointed - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Emotional_GraggleTheBrawler",
+        "name": "Emotional - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Flex_GraggleTheBrawler",
+        "name": "Flex - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Glare_GraggleTheBrawler",
+        "name": "Glare - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Goodbye_GraggleTheBrawler",
+        "name": "Goodbye - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Growl_GraggleTheBrawler",
+        "name": "Growl - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_GraggleTheBrawler",
+        "name": "Laugh - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_GraggleTheBrawler",
+        "name": "On My Way - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Protect_GraggleTheBrawler",
+        "name": "Protect - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Punch_GraggleTheBrawler",
+        "name": "Punch - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ready_GraggleTheBrawler",
+        "name": "Ready - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_GraggleTheBrawler",
+        "name": "Sad - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_GraggleTheBrawler",
+        "name": "Scared - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shocked_GraggleTheBrawler",
+        "name": "Shocked - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sick_GraggleTheBrawler",
+        "name": "Sick - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tada_GraggleTheBrawler",
+        "name": "Tada - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ThumbsUp_GraggleTheBrawler",
+        "name": "Thumbs Up - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unphased_GraggleTheBrawler",
+        "name": "Unphased - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_GraggleTheBrawler",
+        "name": "Wave - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "What_GraggleTheBrawler",
+        "name": "What - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wink_GraggleTheBrawler",
+        "name": "Wink - Graggle The Brawler",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "HammyHam",
+    "name": "Hammy Ham",
+    "stickers": [{
+        "id": "Annoyed_HammyHam",
+        "name": "Annoyed - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bake_HammyHam",
+        "name": "Bake - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bath_HammyHam",
+        "name": "Bath - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_HammyHam",
+        "name": "Cheer - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ChefsKiss_HammyHam",
+        "name": "Chefs Kiss - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cry_HammyHam",
+        "name": "Cry - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dead_HammyHam",
+        "name": "Dead - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_HammyHam",
+        "name": "Eating - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Emotional_HammyHam",
+        "name": "Emotional - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Exercise_HammyHam",
+        "name": "Exercise - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_HammyHam",
+        "name": "Frustrated - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Glare_HammyHam",
+        "name": "Glare - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hammer_HammyHam",
+        "name": "Hammer - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_HammyHam",
+        "name": "Hungry - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Idea_HammyHam",
+        "name": "Idea - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Impatient_HammyHam",
+        "name": "Impatient - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_HammyHam",
+        "name": "Laugh - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lazy_HammyHam",
+        "name": "Lazy - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_HammyHam",
+        "name": "Nervous - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_HammyHam",
+        "name": "No - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nod_HammyHam",
+        "name": "Nod - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_HammyHam",
+        "name": "Peek - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relax_HammyHam",
+        "name": "Relax - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Restless_HammyHam",
+        "name": "Restless - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_HammyHam",
+        "name": "Sad - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shocked_HammyHam",
+        "name": "Shocked - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_HammyHam",
+        "name": "Sleep - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sneaky_HammyHam",
+        "name": "Sneaky - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Stuffed_HammyHam",
+        "name": "Stuffed - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_HammyHam",
+        "name": "Tired - Hammy Ham",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "HouseParty",
+    "name": "House Party",
+    "stickers": [{
+        "id": "Angry_HouseParty",
+        "name": "Angry - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Attack_HouseParty",
+        "name": "Attack - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bonk_HouseParty",
+        "name": "Bonk - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheers_HouseParty",
+        "name": "Cheers - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Chill_HouseParty",
+        "name": "Chill - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Comfort_HouseParty",
+        "name": "Comfort - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_HouseParty",
+        "name": "Congratulations - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_HouseParty",
+        "name": "Crying - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_HouseParty",
+        "name": "Curious - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_HouseParty",
+        "name": "Dance - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dead_HouseParty",
+        "name": "Dead - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_HouseParty",
+        "name": "Eating - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Exhausted_HouseParty",
+        "name": "Exhausted - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "FistBump_HouseParty",
+        "name": "Fist Bump - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Headbang_HouseParty",
+        "name": "Headbang - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heart_HouseParty",
+        "name": "Heart - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Joy_HouseParty",
+        "name": "Joy - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_HouseParty",
+        "name": "Laugh - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Napping_HouseParty",
+        "name": "Napping - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_HouseParty",
+        "name": "No - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_HouseParty",
+        "name": "OK - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Pat_HouseParty",
+        "name": "Pat - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_HouseParty",
+        "name": "Peek - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Picnic_HouseParty",
+        "name": "Picnic - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_HouseParty",
+        "name": "Scared - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sip_HouseParty",
+        "name": "Sip - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleeping_HouseParty",
+        "name": "Sleeping - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Victory_HouseParty",
+        "name": "Victory - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_HouseParty",
+        "name": "Wave - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yawn_HouseParty",
+        "name": "Yawn - House Party",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "HypeSquadBalance",
+    "name": "HypeSquad: Balance",
+    "stickers": [{
+        "id": "Angry_HypeSquadBalance",
+        "name": "Angry - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blink_HypeSquadBalance",
+        "name": "Blink - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Celebrate_HypeSquadBalance",
+        "name": "Celebrate - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_HypeSquadBalance",
+        "name": "Confused - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_HypeSquadBalance",
+        "name": "Crying - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_HypeSquadBalance",
+        "name": "Curious - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Emotional_HypeSquadBalance",
+        "name": "Emotional - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "EpicHandshake_HypeSquadBalance",
+        "name": "Epic Handshake - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Full_HypeSquadBalance",
+        "name": "Full - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heroic_HypeSquadBalance",
+        "name": "Heroic - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_HypeSquadBalance",
+        "name": "Hungry - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_HypeSquadBalance",
+        "name": "Nervous - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_HypeSquadBalance",
+        "name": "No - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OMG_HypeSquadBalance",
+        "name": "OMG - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_HypeSquadBalance",
+        "name": "On My Way - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Overjoyed_HypeSquadBalance",
+        "name": "Overjoyed - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ready_HypeSquadBalance",
+        "name": "Ready - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_HypeSquadBalance",
+        "name": "Scared - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Share_HypeSquadBalance",
+        "name": "Share - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shrug_HypeSquadBalance",
+        "name": "Shrug - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sick_HypeSquadBalance",
+        "name": "Sick - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Stamp_HypeSquadBalance",
+        "name": "Stamp - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprise_HypeSquadBalance",
+        "name": "Surprise - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_HypeSquadBalance",
+        "name": "Thanks - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_HypeSquadBalance",
+        "name": "Thinking - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_HypeSquadBalance",
+        "name": "Tired - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_HypeSquadBalance",
+        "name": "Unamused - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_HypeSquadBalance",
+        "name": "Wave - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wow_HypeSquadBalance",
+        "name": "Wow - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yes_HypeSquadBalance",
+        "name": "Yes - HypeSquad: Balance",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "HypeSquadBravery",
+    "name": "HypeSquad: Bravery",
+    "stickers": [{
+        "id": "Angry_HypeSquadBravery",
+        "name": "Angry - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Chuckles_HypeSquadBravery",
+        "name": "Chuckles - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clap_HypeSquadBravery",
+        "name": "Clap - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clumsy_HypeSquadBravery",
+        "name": "Clumsy - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Concerned_HypeSquadBravery",
+        "name": "Concerned - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_HypeSquadBravery",
+        "name": "Confused - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_HypeSquadBravery",
+        "name": "Crying - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_HypeSquadBravery",
+        "name": "Curious - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Denial_HypeSquadBravery",
+        "name": "Denial - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Drool_HypeSquadBravery",
+        "name": "Drool - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heroic_HypeSquadBravery",
+        "name": "Heroic - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_HypeSquadBravery",
+        "name": "Hungry - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Knife_HypeSquadBravery",
+        "name": "Knife - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Napping_HypeSquadBravery",
+        "name": "Napping - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_HypeSquadBravery",
+        "name": "Nervous - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nod_HypeSquadBravery",
+        "name": "Nod - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_HypeSquadBravery",
+        "name": "On My Way - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Protect_HypeSquadBravery",
+        "name": "Protect - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ready_HypeSquadBravery",
+        "name": "Ready - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Recharge_HypeSquadBravery",
+        "name": "Recharge - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_HypeSquadBravery",
+        "name": "Scared - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Share_HypeSquadBravery",
+        "name": "Share - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shock_HypeSquadBravery",
+        "name": "Shock - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sick_HypeSquadBravery",
+        "name": "Sick - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Stamp_HypeSquadBravery",
+        "name": "Stamp - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_HypeSquadBravery",
+        "name": "Thanks - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ThinkingofYou_HypeSquadBravery",
+        "name": "Thinking of You - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_HypeSquadBravery",
+        "name": "Tired - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Triumph_HypeSquadBravery",
+        "name": "Triumph - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_HypeSquadBravery",
+        "name": "Unamused - HypeSquad: Bravery",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "HypeSquadBrilliance",
+    "name": "HypeSquad: Brilliance",
+    "stickers": [{
+        "id": "Amused_HypeSquadBrilliance",
+        "name": "Amused - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_HypeSquadBrilliance",
+        "name": "Angry - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blink_HypeSquadBrilliance",
+        "name": "Blink - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Celebrate_HypeSquadBrilliance",
+        "name": "Celebrate - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Concerned_HypeSquadBrilliance",
+        "name": "Concerned - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_HypeSquadBrilliance",
+        "name": "Confused - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_HypeSquadBrilliance",
+        "name": "Crying - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dreaming_HypeSquadBrilliance",
+        "name": "Dreaming - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_HypeSquadBrilliance",
+        "name": "Frustrated - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heroic_HypeSquadBrilliance",
+        "name": "Heroic - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_HypeSquadBrilliance",
+        "name": "Hungry - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_HypeSquadBrilliance",
+        "name": "Nervous - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_HypeSquadBrilliance",
+        "name": "No - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Omg_HypeSquadBrilliance",
+        "name": "Omg - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ready_HypeSquadBrilliance",
+        "name": "Ready - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_HypeSquadBrilliance",
+        "name": "Scared - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Share_HypeSquadBrilliance",
+        "name": "Share - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shocked_HypeSquadBrilliance",
+        "name": "Shocked - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shrug_HypeSquadBrilliance",
+        "name": "Shrug - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sick_HypeSquadBrilliance",
+        "name": "Sick - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sip_HypeSquadBrilliance",
+        "name": "Sip - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Stamp_HypeSquadBrilliance",
+        "name": "Stamp - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_HypeSquadBrilliance",
+        "name": "Thanks - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_HypeSquadBrilliance",
+        "name": "Thinking - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ThinkAboutIt_HypeSquadBrilliance",
+        "name": "Think About It - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_HypeSquadBrilliance",
+        "name": "Tired - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_HypeSquadBrilliance",
+        "name": "Unamused - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_HypeSquadBrilliance",
+        "name": "Wave - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Why_HypeSquadBrilliance",
+        "name": "Why - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yes_HypeSquadBrilliance",
+        "name": "Yes - HypeSquad: Brilliance",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "LockeTheWizard",
+    "name": "Locke The Wizard",
+    "stickers": [{
+        "id": "Angry_LockeTheWizard",
+        "name": "Angry - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Annoyed_LockeTheWizard",
+        "name": "Annoyed - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bonk_LockeTheWizard",
+        "name": "Bonk - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bow_LockeTheWizard",
+        "name": "Bow - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheers_LockeTheWizard",
+        "name": "Cheers - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clumsy_LockeTheWizard",
+        "name": "Clumsy - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_LockeTheWizard",
+        "name": "Congratulations - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_LockeTheWizard",
+        "name": "Dance - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "DoNotDisturb_LockeTheWizard",
+        "name": "Do Not Disturb - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_LockeTheWizard",
+        "name": "Eating - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Emotional_LockeTheWizard",
+        "name": "Emotional - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Exhausted_LockeTheWizard",
+        "name": "Exhausted - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_LockeTheWizard",
+        "name": "Frustrated - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heroic_LockeTheWizard",
+        "name": "Heroic - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_LockeTheWizard",
+        "name": "Laugh - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Napping_LockeTheWizard",
+        "name": "Napping - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_LockeTheWizard",
+        "name": "No - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_LockeTheWizard",
+        "name": "OK - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_LockeTheWizard",
+        "name": "On My Way - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_LockeTheWizard",
+        "name": "Sad - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_LockeTheWizard",
+        "name": "Scared - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shrug_LockeTheWizard",
+        "name": "Shrug - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sick_LockeTheWizard",
+        "name": "Sick - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_LockeTheWizard",
+        "name": "Sleep - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smile_LockeTheWizard",
+        "name": "Smile - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Stretch_LockeTheWizard",
+        "name": "Stretch - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_LockeTheWizard",
+        "name": "Thinking - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_LockeTheWizard",
+        "name": "Unamused - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "WhoaThere_LockeTheWizard",
+        "name": "Whoa There - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yawn_LockeTheWizard",
+        "name": "Yawn - Locke The Wizard",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "LonelyLeif",
+    "name": "Lonely Leif",
+    "stickers": [{
+        "id": "Angry_LonelyLeif",
+        "name": "Angry - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Awkward_LonelyLeif",
+        "name": "Awkward - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_LonelyLeif",
+        "name": "Aww - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blank_LonelyLeif",
+        "name": "Blank - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blink_LonelyLeif",
+        "name": "Blink - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bored_LonelyLeif",
+        "name": "Bored - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_LonelyLeif",
+        "name": "Cheer - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_LonelyLeif",
+        "name": "Confused - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dizzy_LonelyLeif",
+        "name": "Dizzy - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_LonelyLeif",
+        "name": "Eating - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Embarrassed_LonelyLeif",
+        "name": "Embarrassed - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Emergency_LonelyLeif",
+        "name": "Emergency - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Fall_LonelyLeif",
+        "name": "Fall - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "FallApart_LonelyLeif",
+        "name": "Fall Apart - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Horrified_LonelyLeif",
+        "name": "Horrified - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hurt_LonelyLeif",
+        "name": "Hurt - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "LeafMeAlone_LonelyLeif",
+        "name": "Leaf Me Alone - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nauseous_LonelyLeif",
+        "name": "Nauseous - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Overwhelmed_LonelyLeif",
+        "name": "Overwhelmed - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Panic_LonelyLeif",
+        "name": "Panic - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Proud_LonelyLeif",
+        "name": "Proud - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_LonelyLeif",
+        "name": "Relief - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Rushed_LonelyLeif",
+        "name": "Rushed - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_LonelyLeif",
+        "name": "Sad - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_LonelyLeif",
+        "name": "Scared - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Slip_LonelyLeif",
+        "name": "Slip - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smile_LonelyLeif",
+        "name": "Smile - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smirk_LonelyLeif",
+        "name": "Smirk - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_LonelyLeif",
+        "name": "Tired - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "UnsureOK_LonelyLeif",
+        "name": "Unsure OK - Lonely Leif",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "MallowTheRascal",
+    "name": "Mallow The Rascal",
+    "stickers": [{
+        "id": "Angry_MallowTheRascal",
+        "name": "Angry - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_MallowTheRascal",
+        "name": "Blush - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bongo_MallowTheRascal",
+        "name": "Bongo - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Broke_MallowTheRascal",
+        "name": "Broke - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clumsy_MallowTheRascal",
+        "name": "Clumsy - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cozy_MallowTheRascal",
+        "name": "Cozy - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_MallowTheRascal",
+        "name": "Dance - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Disgust_MallowTheRascal",
+        "name": "Disgust - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eyebrows_MallowTheRascal",
+        "name": "Eyebrows - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "EyeRoll_MallowTheRascal",
+        "name": "Eye Roll - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Fast_MallowTheRascal",
+        "name": "Fast - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Fine_MallowTheRascal",
+        "name": "Fine - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_MallowTheRascal",
+        "name": "Frustrated - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Gasp_MallowTheRascal",
+        "name": "Gasp - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Glare_MallowTheRascal",
+        "name": "Glare - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Goodbye_MallowTheRascal",
+        "name": "Goodbye - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Happy_MallowTheRascal",
+        "name": "Happy - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heartbreak_MallowTheRascal",
+        "name": "Heartbreak - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hopeful_MallowTheRascal",
+        "name": "Hopeful - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lightbulb_MallowTheRascal",
+        "name": "Lightbulb - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_MallowTheRascal",
+        "name": "Nervous - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nod_MallowTheRascal",
+        "name": "Nod - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Omg_MallowTheRascal",
+        "name": "Omg - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Pat_MallowTheRascal",
+        "name": "Pat - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relax_MallowTheRascal",
+        "name": "Relax - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_MallowTheRascal",
+        "name": "Sad - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shocked_MallowTheRascal",
+        "name": "Shocked - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Typing_MallowTheRascal",
+        "name": "Typing - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Vacation_MallowTheRascal",
+        "name": "Vacation - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wink_MallowTheRascal",
+        "name": "Wink - Mallow The Rascal",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "MeanCowboyTinyHorse",
+    "name": "Mean Cowboy & Tiny Horse",
+    "stickers": [{
+        "id": "Angry_MeanCowboyTinyHorse",
+        "name": "Angry - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Attack_MeanCowboyTinyHorse",
+        "name": "Attack - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_MeanCowboyTinyHorse",
+        "name": "Curious - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dab_MeanCowboyTinyHorse",
+        "name": "Dab - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Fine_MeanCowboyTinyHorse",
+        "name": "Fine - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "FistBump_MeanCowboyTinyHorse",
+        "name": "Fist Bump - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Flip_MeanCowboyTinyHorse",
+        "name": "Flip - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Heartbreak_MeanCowboyTinyHorse",
+        "name": "Heartbreak - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_MeanCowboyTinyHorse",
+        "name": "Peek - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Run_MeanCowboyTinyHorse",
+        "name": "Run - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_MeanCowboyTinyHorse",
+        "name": "Sad - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sneaky_MeanCowboyTinyHorse",
+        "name": "Sneaky - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Superstar_MeanCowboyTinyHorse",
+        "name": "Superstar - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Taunt_MeanCowboyTinyHorse",
+        "name": "Taunt - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yikes_MeanCowboyTinyHorse",
+        "name": "Yikes - Mean Cowboy & Tiny Horse",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "MeltyChihuahua",
+    "name": "Melty Chihuahua",
+    "stickers": [{
+        "id": "Bet_MeltyChihuahua",
+        "name": "Bet - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bored_MeltyChihuahua",
+        "name": "Bored - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bye_MeltyChihuahua",
+        "name": "Bye - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ChillOut_MeltyChihuahua",
+        "name": "Chill Out - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_MeltyChihuahua",
+        "name": "Confused - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cry_MeltyChihuahua",
+        "name": "Cry - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hello_MeltyChihuahua",
+        "name": "Hello - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Help_MeltyChihuahua",
+        "name": "Help - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ignore_MeltyChihuahua",
+        "name": "Ignore - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OhNo_MeltyChihuahua",
+        "name": "Oh No - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sip_MeltyChihuahua",
+        "name": "Sip - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_MeltyChihuahua",
+        "name": "Sleep - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprise_MeltyChihuahua",
+        "name": "Surprise - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "What_MeltyChihuahua",
+        "name": "What - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Yay_MeltyChihuahua",
+        "name": "Yay - Melty Chihuahua",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "NellyAtWork",
+    "name": "Nelly At Work",
+    "stickers": [{
+        "id": "Approved_NellyAtWork",
+        "name": "Approved - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "BeRightBack_NellyAtWork",
+        "name": "Be Right Back - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "BeRightThere_NellyAtWork",
+        "name": "Be Right There - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Denied_NellyAtWork",
+        "name": "Denied - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "DoNotDisturb_NellyAtWork",
+        "name": "Do Not Disturb - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GoodJob_NellyAtWork",
+        "name": "Good Job - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ImOnIt_NellyAtWork",
+        "name": "Im On It - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "LetMeCheck_NellyAtWork",
+        "name": "Let Me Check - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "LunchTime_NellyAtWork",
+        "name": "Lunch Time - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Monday_NellyAtWork",
+        "name": "Monday - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OverIt_NellyAtWork",
+        "name": "Over It - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Perfect_NellyAtWork",
+        "name": "Perfect - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Undo_NellyAtWork",
+        "name": "Undo - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "YouGotThis_NellyAtWork",
+        "name": "You Got This - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "YouThere_NellyAtWork",
+        "name": "You There? - Nelly At Work",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "PartySquad",
+    "name": "Party Squad",
+    "stickers": [{
+        "id": "Balloon_PartySquad",
+        "name": "Balloon - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bounce_PartySquad",
+        "name": "Bounce - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bow_PartySquad",
+        "name": "Bow - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ButtBump_PartySquad",
+        "name": "Butt Bump - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_PartySquad",
+        "name": "Cheer - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheers_PartySquad",
+        "name": "Cheers - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clap_PartySquad",
+        "name": "Clap - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cool_PartySquad",
+        "name": "Cool - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "DJ_PartySquad",
+        "name": "DJ - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Excited_PartySquad",
+        "name": "Excited - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Feast_PartySquad",
+        "name": "Feast - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Fireworks_PartySquad",
+        "name": "Fireworks - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Headbang_PartySquad",
+        "name": "Headbang - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "HighFive_PartySquad",
+        "name": "High Five - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hooray_PartySquad",
+        "name": "Hooray - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hype_PartySquad",
+        "name": "Hype - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Impressed_PartySquad",
+        "name": "Impressed - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Juggle_PartySquad",
+        "name": "Juggle - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Karaoke_PartySquad",
+        "name": "Karaoke - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Omg_PartySquad",
+        "name": "Omg - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Partyhorn_PartySquad",
+        "name": "Partyhorn - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "PartyHat_PartySquad",
+        "name": "Party Hat - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "PartyPopper_PartySquad",
+        "name": "Party Popper - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Roll_PartySquad",
+        "name": "Roll - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Selfies_PartySquad",
+        "name": "Selfies - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_PartySquad",
+        "name": "Sleep - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sparklers_PartySquad",
+        "name": "Sparklers - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "ThumbsUp_PartySquad",
+        "name": "Thumbs Up - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Vibing_PartySquad",
+        "name": "Vibing - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wobble_PartySquad",
+        "name": "Wobble - Party Squad",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "PhibiTheScholar",
+    "name": "Phibi The Scholar",
+    "stickers": [{
+        "id": "Angry_PhibiTheScholar",
+        "name": "Angry - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_PhibiTheScholar",
+        "name": "Aww - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_PhibiTheScholar",
+        "name": "Blush - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Comfort_PhibiTheScholar",
+        "name": "Comfort - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_PhibiTheScholar",
+        "name": "Congratulations - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_PhibiTheScholar",
+        "name": "Dance - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Daydream_PhibiTheScholar",
+        "name": "Daydream - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dizzy_PhibiTheScholar",
+        "name": "Dizzy - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_PhibiTheScholar",
+        "name": "Eating - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Embarrassed_PhibiTheScholar",
+        "name": "Embarrassed - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Excited_PhibiTheScholar",
+        "name": "Excited - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Exhausted_PhibiTheScholar",
+        "name": "Exhausted - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Flustered_PhibiTheScholar",
+        "name": "Flustered - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_PhibiTheScholar",
+        "name": "Frustrated - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_PhibiTheScholar",
+        "name": "Laugh - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Napping_PhibiTheScholar",
+        "name": "Napping - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_PhibiTheScholar",
+        "name": "Nervous - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_PhibiTheScholar",
+        "name": "No - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_PhibiTheScholar",
+        "name": "On My Way - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Overwhelmed_PhibiTheScholar",
+        "name": "Overwhelmed - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_PhibiTheScholar",
+        "name": "Peek - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_PhibiTheScholar",
+        "name": "Relief - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_PhibiTheScholar",
+        "name": "Sad - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_PhibiTheScholar",
+        "name": "Scared - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sick_PhibiTheScholar",
+        "name": "Sick - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Studying_PhibiTheScholar",
+        "name": "Studying - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprised_PhibiTheScholar",
+        "name": "Surprised - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_PhibiTheScholar",
+        "name": "Thanks - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_PhibiTheScholar",
+        "name": "Unamused - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_PhibiTheScholar",
+        "name": "Wave - Phibi The Scholar",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "RoboNelly",
+    "name": "Robo Nelly",
+    "stickers": [{
+        "id": "Affection_RoboNelly",
+        "name": "Affection - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_RoboNelly",
+        "name": "Angry - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_RoboNelly",
+        "name": "Aww - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_RoboNelly",
+        "name": "Blush - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_RoboNelly",
+        "name": "Cheer - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_RoboNelly",
+        "name": "Congratulations - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_RoboNelly",
+        "name": "Crying - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_RoboNelly",
+        "name": "Curious - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dizzy_RoboNelly",
+        "name": "Dizzy - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Emergency_RoboNelly",
+        "name": "Emergency - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_RoboNelly",
+        "name": "Frustrated - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_RoboNelly",
+        "name": "Laugh - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_RoboNelly",
+        "name": "Love - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nauseous_RoboNelly",
+        "name": "Nauseous - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_RoboNelly",
+        "name": "Nervous - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_RoboNelly",
+        "name": "No - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_RoboNelly",
+        "name": "OK - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_RoboNelly",
+        "name": "On My Way - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Overwhelmed_RoboNelly",
+        "name": "Overwhelmed - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Recharge_RoboNelly",
+        "name": "Recharge - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_RoboNelly",
+        "name": "Relief - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_RoboNelly",
+        "name": "Sad - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_RoboNelly",
+        "name": "Scared - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smile_RoboNelly",
+        "name": "Smile - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smirk_RoboNelly",
+        "name": "Smirk - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprise_RoboNelly",
+        "name": "Surprise - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_RoboNelly",
+        "name": "Thanks - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_RoboNelly",
+        "name": "Tired - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_RoboNelly",
+        "name": "Unamused - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_RoboNelly",
+        "name": "Wave - Robo Nelly",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "SassyPeach",
+    "name": "Sassy Peach",
+    "stickers": [{
+        "id": "Angry_SassyPeach",
+        "name": "Angry - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Brain_SassyPeach",
+        "name": "Brain - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheeky_SassyPeach",
+        "name": "Cheeky - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clown_SassyPeach",
+        "name": "Clown - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cool_SassyPeach",
+        "name": "Cool - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cry_SassyPeach",
+        "name": "Cry - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dead_SassyPeach",
+        "name": "Dead - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "HairFlip_SassyPeach",
+        "name": "Hair Flip - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nails_SassyPeach",
+        "name": "Nails - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Poop_SassyPeach",
+        "name": "Poop - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Popcorn_SassyPeach",
+        "name": "Popcorn - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scream_SassyPeach",
+        "name": "Scream - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shook_SassyPeach",
+        "name": "Shook - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shrug_SassyPeach",
+        "name": "Shrug - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Stare_SassyPeach",
+        "name": "Stare - Sassy Peach",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "SmugShiba",
+    "name": "Smug Shiba",
+    "stickers": [{
+        "id": "Angry_SmugShiba",
+        "name": "Angry - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Anime_SmugShiba",
+        "name": "Anime - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Awkward_SmugShiba",
+        "name": "Awkward - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dab_SmugShiba",
+        "name": "Dab - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Disgust_SmugShiba",
+        "name": "Disgust - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Doubt_SmugShiba",
+        "name": "Doubt - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Embarrassed_SmugShiba",
+        "name": "Embarrassed - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Ignore_SmugShiba",
+        "name": "Ignore - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_SmugShiba",
+        "name": "Love - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Mischief_SmugShiba",
+        "name": "Mischief - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Money_SmugShiba",
+        "name": "Money - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OMG_SmugShiba",
+        "name": "OMG - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Shy_SmugShiba",
+        "name": "Shy - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sus_SmugShiba",
+        "name": "Sus - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Vibing_SmugShiba",
+        "name": "Vibing - Smug Shiba",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "SpringSelfCare",
+    "name": "Spring Self Care",
+    "stickers": [{
+        "id": "Bath_SpringSelfCare",
+        "name": "Bath - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Breathe_SpringSelfCare",
+        "name": "Breathe - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "CheerUp_SpringSelfCare",
+        "name": "Cheer Up - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Comfort_SpringSelfCare",
+        "name": "Comfort - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "DrinkWater_SpringSelfCare",
+        "name": "Drink Water - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_SpringSelfCare",
+        "name": "Eating - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GreatDay_SpringSelfCare",
+        "name": "Great Day - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Mask_SpringSelfCare",
+        "name": "Mask - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relax_SpringSelfCare",
+        "name": "Relax - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Skincare_SpringSelfCare",
+        "name": "Skincare - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Stretch_SpringSelfCare",
+        "name": "Stretch - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "TakeCare_SpringSelfCare",
+        "name": "Take Care - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "TakeItEasy_SpringSelfCare",
+        "name": "Take It Easy - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "TreatYourself_SpringSelfCare",
+        "name": "Treat Yourself - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Veggies_SpringSelfCare",
+        "name": "Veggies - Spring Self Care",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "WhatsUpWumpus",
+    "name": "What's Up Wumpus",
+    "stickers": [{
+        "id": "Affection_WhatsUpWumpus",
+        "name": "Affection - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_WhatsUpWumpus",
+        "name": "Angry - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_WhatsUpWumpus",
+        "name": "Aww - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_WhatsUpWumpus",
+        "name": "Blush - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_WhatsUpWumpus",
+        "name": "Cheer - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_WhatsUpWumpus",
+        "name": "Congratulations - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cry_WhatsUpWumpus",
+        "name": "Cry - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_WhatsUpWumpus",
+        "name": "Curious - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_WhatsUpWumpus",
+        "name": "Dance - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Evil_WhatsUpWumpus",
+        "name": "Evil - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_WhatsUpWumpus",
+        "name": "Frustrated - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_WhatsUpWumpus",
+        "name": "Hungry - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_WhatsUpWumpus",
+        "name": "Laugh - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_WhatsUpWumpus",
+        "name": "Love - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nauseous_WhatsUpWumpus",
+        "name": "Nauseous - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_WhatsUpWumpus",
+        "name": "Nervous - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_WhatsUpWumpus",
+        "name": "No - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_WhatsUpWumpus",
+        "name": "OK - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_WhatsUpWumpus",
+        "name": "On My Way - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_WhatsUpWumpus",
+        "name": "Relief - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_WhatsUpWumpus",
+        "name": "Sad - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_WhatsUpWumpus",
+        "name": "Scared - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_WhatsUpWumpus",
+        "name": "Sleep - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smile_WhatsUpWumpus",
+        "name": "Smile - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smirk_WhatsUpWumpus",
+        "name": "Smirk - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprised_WhatsUpWumpus",
+        "name": "Surprised - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_WhatsUpWumpus",
+        "name": "Thanks - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_WhatsUpWumpus",
+        "name": "Thinking - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_WhatsUpWumpus",
+        "name": "Unamused - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_WhatsUpWumpus",
+        "name": "Wave - What's Up Wumpus",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "WumpusCoDailyRoutine",
+    "name": "Wumpus & Co: Daily Routine",
+    "stickers": [{
+        "id": "Baking_WumpusCoDailyRoutine",
+        "name": "Baking - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bedtime_WumpusCoDailyRoutine",
+        "name": "Bedtime - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "BrushingTeeth_WumpusCoDailyRoutine",
+        "name": "Brushing Teeth - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Building_WumpusCoDailyRoutine",
+        "name": "Building - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "CleaningScreen_WumpusCoDailyRoutine",
+        "name": "Cleaning Screen - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Coffee_WumpusCoDailyRoutine",
+        "name": "Coffee - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cooking_WumpusCoDailyRoutine",
+        "name": "Cooking - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "DoingDishes_WumpusCoDailyRoutine",
+        "name": "Doing Dishes - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "DoNotDisturb_WumpusCoDailyRoutine",
+        "name": "Do Not Disturb - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dusting_WumpusCoDailyRoutine",
+        "name": "Dusting - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Exercise_WumpusCoDailyRoutine",
+        "name": "Exercise - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Garbage_WumpusCoDailyRoutine",
+        "name": "Garbage - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Gardening_WumpusCoDailyRoutine",
+        "name": "Gardening - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GroceryShopping_WumpusCoDailyRoutine",
+        "name": "Grocery Shopping - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Karaoke_WumpusCoDailyRoutine",
+        "name": "Karaoke - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Maintenance_WumpusCoDailyRoutine",
+        "name": "Maintenance - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Napping_WumpusCoDailyRoutine",
+        "name": "Napping - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "PackageArrived_WumpusCoDailyRoutine",
+        "name": "Package Arrived - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "PhoneTime_WumpusCoDailyRoutine",
+        "name": "Phone Time - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "PlayingGames_WumpusCoDailyRoutine",
+        "name": "Playing Games - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "PlayingMusic_WumpusCoDailyRoutine",
+        "name": "Playing Music - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "PlayingPCGames_WumpusCoDailyRoutine",
+        "name": "Playing PC Games - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Reading_WumpusCoDailyRoutine",
+        "name": "Reading - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Showering_WumpusCoDailyRoutine",
+        "name": "Showering - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snooze_WumpusCoDailyRoutine",
+        "name": "Snooze - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "SweetCraving_WumpusCoDailyRoutine",
+        "name": "Sweet Craving - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "VideoCall_WumpusCoDailyRoutine",
+        "name": "Video Call - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "WakeUp_WumpusCoDailyRoutine",
+        "name": "Wake Up - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "WatchingTV_WumpusCoDailyRoutine",
+        "name": "Watching TV - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Working_WumpusCoDailyRoutine",
+        "name": "Working - Wumpus & Co: Daily Routine",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "WumpusCoHalloween",
+    "name": "Wumpus & Co: Halloween",
+    "stickers": [{
+        "id": "Annoyed_WumpusCoHalloween",
+        "name": "Annoyed - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Busy_WumpusCoHalloween",
+        "name": "Busy - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Carving_WumpusCoHalloween",
+        "name": "Carving - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Celebrate_WumpusCoHalloween",
+        "name": "Celebrate - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheerful_WumpusCoHalloween",
+        "name": "Cheerful - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clumsy_WumpusCoHalloween",
+        "name": "Clumsy - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Confused_WumpusCoHalloween",
+        "name": "Confused - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_WumpusCoHalloween",
+        "name": "Dance - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dead_WumpusCoHalloween",
+        "name": "Dead - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_WumpusCoHalloween",
+        "name": "Eating - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Evil_WumpusCoHalloween",
+        "name": "Evil - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "FingerGuns_WumpusCoHalloween",
+        "name": "Finger Guns - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Flee_WumpusCoHalloween",
+        "name": "Flee - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "GoodNight_WumpusCoHalloween",
+        "name": "Good Night - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hello_WumpusCoHalloween",
+        "name": "Hello - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hide_WumpusCoHalloween",
+        "name": "Hide - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hug_WumpusCoHalloween",
+        "name": "Hug - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_WumpusCoHalloween",
+        "name": "Hungry - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_WumpusCoHalloween",
+        "name": "Love - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Mischievous_WumpusCoHalloween",
+        "name": "Mischievous - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Morning_WumpusCoHalloween",
+        "name": "Morning - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_WumpusCoHalloween",
+        "name": "Nervous - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_WumpusCoHalloween",
+        "name": "On My Way - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Peek_WumpusCoHalloween",
+        "name": "Peek - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scare_WumpusCoHalloween",
+        "name": "Scare - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_WumpusCoHalloween",
+        "name": "Scared - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleeping_WumpusCoHalloween",
+        "name": "Sleeping - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sneaking_WumpusCoHalloween",
+        "name": "Sneaking - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Tired_WumpusCoHalloween",
+        "name": "Tired - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_WumpusCoHalloween",
+        "name": "Wave - Wumpus & Co: Halloween",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "WumpusCoWinterFun",
+    "name": "Wumpus & Co: Winter Fun",
+    "stickers": [{
+        "id": "Annoyed_WumpusCoWinterFun",
+        "name": "Annoyed - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Bake_WumpusCoWinterFun",
+        "name": "Bake - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Clumsy_WumpusCoWinterFun",
+        "name": "Clumsy - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cozy_WumpusCoWinterFun",
+        "name": "Cozy - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Freezing_WumpusCoWinterFun",
+        "name": "Freezing - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Gift_WumpusCoWinterFun",
+        "name": "Gift - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hello_WumpusCoWinterFun",
+        "name": "Hello - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "HotCocoa_WumpusCoWinterFun",
+        "name": "Hot Cocoa - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hug_WumpusCoWinterFun",
+        "name": "Hug - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "IceSkating_WumpusCoWinterFun",
+        "name": "Ice Skating - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Jump_WumpusCoWinterFun",
+        "name": "Jump - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lazy_WumpusCoWinterFun",
+        "name": "Lazy - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Lights_WumpusCoWinterFun",
+        "name": "Lights - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Memories_WumpusCoWinterFun",
+        "name": "Memories - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Reading_WumpusCoWinterFun",
+        "name": "Reading - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relax_WumpusCoWinterFun",
+        "name": "Relax - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sled_WumpusCoWinterFun",
+        "name": "Sled - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sneeze_WumpusCoWinterFun",
+        "name": "Sneeze - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "SnowballLeft_WumpusCoWinterFun",
+        "name": "Snowball Left - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "SnowballRight_WumpusCoWinterFun",
+        "name": "Snowball Right - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "SnowballUp_WumpusCoWinterFun",
+        "name": "Snowball Up - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snowball_WumpusCoWinterFun",
+        "name": "Snowball - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snowboard_WumpusCoWinterFun",
+        "name": "Snowboard - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snowing_WumpusCoWinterFun",
+        "name": "Snowing - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Snowman_WumpusCoWinterFun",
+        "name": "Snowman - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Soup_WumpusCoWinterFun",
+        "name": "Soup - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Teamwork_WumpusCoWinterFun",
+        "name": "Teamwork - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_WumpusCoWinterFun",
+        "name": "Thanks - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Warm_WumpusCoWinterFun",
+        "name": "Warm - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_WumpusCoWinterFun",
+        "name": "Wave - Wumpus & Co: Winter Fun",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "WumpusBeyond",
+    "name": "Wumpus Beyond",
+    "stickers": [{
+        "id": "Affection_WumpusBeyond",
+        "name": "Affection - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_WumpusBeyond",
+        "name": "Angry - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_WumpusBeyond",
+        "name": "Aww - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_WumpusBeyond",
+        "name": "Blush - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_WumpusBeyond",
+        "name": "Cheer - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_WumpusBeyond",
+        "name": "Congratulations - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_WumpusBeyond",
+        "name": "Crying - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_WumpusBeyond",
+        "name": "Curious - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_WumpusBeyond",
+        "name": "Dance - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Evil_WumpusBeyond",
+        "name": "Evil - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_WumpusBeyond",
+        "name": "Frustrated - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Hungry_WumpusBeyond",
+        "name": "Hungry - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_WumpusBeyond",
+        "name": "Laugh - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_WumpusBeyond",
+        "name": "Love - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nauseous_WumpusBeyond",
+        "name": "Nauseous - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_WumpusBeyond",
+        "name": "Nervous - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_WumpusBeyond",
+        "name": "No - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_WumpusBeyond",
+        "name": "OK - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_WumpusBeyond",
+        "name": "On My Way - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_WumpusBeyond",
+        "name": "Relief - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_WumpusBeyond",
+        "name": "Sad - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_WumpusBeyond",
+        "name": "Scared - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_WumpusBeyond",
+        "name": "Sleep - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smile_WumpusBeyond",
+        "name": "Smile - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smirk_WumpusBeyond",
+        "name": "Smirk - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprised_WumpusBeyond",
+        "name": "Surprised - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_WumpusBeyond",
+        "name": "Thanks - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_WumpusBeyond",
+        "name": "Thinking - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_WumpusBeyond",
+        "name": "Unamused - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_WumpusBeyond",
+        "name": "Wave - Wumpus Beyond",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}, {
+    "type": "PACK",
+    "id": "WumpusNitroElite",
+    "name": "Wumpus Nitro Elite",
+    "stickers": [{
+        "id": "Affection_WumpusNitroElite",
+        "name": "Affection - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Angry_WumpusNitroElite",
+        "name": "Angry - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Aww_WumpusNitroElite",
+        "name": "Aww - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Blush_WumpusNitroElite",
+        "name": "Blush - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Cheer_WumpusNitroElite",
+        "name": "Cheer - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Congratulations_WumpusNitroElite",
+        "name": "Congratulations - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Crying_WumpusNitroElite",
+        "name": "Crying - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Curious_WumpusNitroElite",
+        "name": "Curious - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Dance_WumpusNitroElite",
+        "name": "Dance - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Eating_WumpusNitroElite",
+        "name": "Eating - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Evil_WumpusNitroElite",
+        "name": "Evil - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Frustrated_WumpusNitroElite",
+        "name": "Frustrated - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Laugh_WumpusNitroElite",
+        "name": "Laugh - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Love_WumpusNitroElite",
+        "name": "Love - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nauseous_WumpusNitroElite",
+        "name": "Nauseous - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Nervous_WumpusNitroElite",
+        "name": "Nervous - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "No_WumpusNitroElite",
+        "name": "No - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OK_WumpusNitroElite",
+        "name": "OK - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "OnMyWay_WumpusNitroElite",
+        "name": "On My Way - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Relief_WumpusNitroElite",
+        "name": "Relief - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sad_WumpusNitroElite",
+        "name": "Sad - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Scared_WumpusNitroElite",
+        "name": "Scared - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Sleep_WumpusNitroElite",
+        "name": "Sleep - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smile_WumpusNitroElite",
+        "name": "Smile - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Smirk_WumpusNitroElite",
+        "name": "Smirk - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Surprise_WumpusNitroElite",
+        "name": "Surprise - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thanks_WumpusNitroElite",
+        "name": "Thanks - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Thinking_WumpusNitroElite",
+        "name": "Thinking - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Unamused_WumpusNitroElite",
+        "name": "Unamused - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }, {
+        "id": "Wave_WumpusNitroElite",
+        "name": "Wave - Wumpus Nitro Elite",
+        "format_type": 1,
+        "free_stickers": true
+    }]
+}]

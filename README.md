@@ -1,2 +1,2 @@
 # FreeStickers
- Replace sending stickers by sending URLs!
+In testing, expect bugs & issues!
