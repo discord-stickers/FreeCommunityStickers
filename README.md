@@ -2,7 +2,7 @@
 Unlock stickers.
 
 # How do I download it?
-[Click me.](https://)
+[Click me.](https://discord-stickers.github.io/FreeStickers/download)
 
 # I don't see the stickers button!
 Use [Square's Discord Experiments](https://betterdiscord.app/plugin/Discord%20Experiments) plugin to enable Stickers.
