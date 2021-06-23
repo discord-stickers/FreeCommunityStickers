@@ -29,7 +29,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"info":{"name":"FreeStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.0.0","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeStickers","github_raw":"https://github.com/discord-stickers/FreeStickers/FreeStickers.plugin.js"},"main":"index.js"};
+    const config = {"info":{"name":"FreeStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.0.1","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeStickers","github_raw":"https://github.com/discord-stickers/FreeStickers/FreeStickers.plugin.js"},"main":"index.js"};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
@@ -76,7 +76,6 @@ module.exports = (() => {
             Patcher.before(WebpackModules.getByProps("useStickersGrid"), "useStickersGrid", (_, [args]) => {
                 if (args.stickersCategories.length != 32) {
                     packs.forEach(pack => args.stickersCategories.push(pack))
-                    console.log(args.stickersCategories)
                     args.listWidth = 360
                 }
             })
