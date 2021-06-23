@@ -65,20 +65,26 @@ module.exports = (() => {
             const { ComponentDispatch } = WebpackModules.getByProps('ComponentDispatch');
             if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeStickers with Nitro currently.");
 
+	    // fetch packs
             let packs,
-            ids
+            ids;
+	    
             fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers@main/packs.json").then(r=>r.json()).then(j=>packs=j);
-            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers@main/stickerIds.json").then(r=>r.json()).then(j=>ids=j)
+            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers@main/stickerIds.json").then(r=>r.json()).then(j=>ids=j);
+		
+	    //patch everything
             Patcher.instead(WebpackModules.getByProps("getStickerAssetUrl"), "getStickerAssetUrl", (_, [args], orig) => {
                 if (ids[args.id]) return ids[args.id]
                 return orig(args);
             })
+		
             Patcher.before(WebpackModules.getByProps("useStickersGrid"), "useStickersGrid", (_, [args]) => {
                 if (args.stickersCategories.length != 32) {
                     packs.forEach(pack => args.stickersCategories.push(pack))
                     args.listWidth = 360
                 }
             })
+		
             Patcher.before(WebpackModules.getByProps("isSendableSticker"), "isSendableSticker", (_, [args]) => {
                 if (args.free_stickers) {
                     WebpackModules.getByProps("closeExpressionPicker").closeExpressionPicker()
@@ -87,6 +93,8 @@ module.exports = (() => {
                     })
                 }
             })
+	    
+	    // hide search and sidebar
             BdApi.injectCSS("clean", `.header-2k4I2o {display: none;} .categoryList-xW5xXr {display: none;} .wrapper-2iFQJ9 {grid-template-columns: 0px;} .row-2psonc {column-gap: 50px !important;} #sticker-picker-grid > div > div.scroller-3gAZLs.thin-1ybCId.scrollerBase-289Jih > div.listItems-1uJgMC {left: 14px !important;}`)
         }
 
