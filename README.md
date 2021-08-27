@@ -1,14 +1,5 @@
 # FreeStickers
-Unlock stickers.
+Unlock community stickers by sending the sticker link instead of the actual sticker. Lotties don't work, and APNG stickers will be fixed soon!
 
 # How do I download it?
 [Click me.](https://discord-stickers.github.io/FreeStickers/download)
-
-# I don't see the stickers button!
-Use [Square's Discord Experiments](https://betterdiscord.app/plugin/Discord%20Experiments) plugin to enable Stickers.
-
-# This is broken!
-not fully released
-
-# Yes
-Discord is going to be mad.
