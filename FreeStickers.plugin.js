@@ -75,7 +75,7 @@ module.exports = (() => {
                     if (args.format_type == 1 || args.format_type == 2) {
                         closeExpressionPicker();
                         return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
-                            content: " " + getStickerAssetUrl(args)
+                            content: " " + getStickerAssetUrl(args).replace(/[0-9]{3}/g, "160")
                         });
                     }
                 }
