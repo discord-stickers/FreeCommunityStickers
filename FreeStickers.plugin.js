@@ -62,40 +62,26 @@ module.exports = (() => {
         }
 
         onStart() {
-            const { ComponentDispatch } = WebpackModules.getByProps('ComponentDispatch');
-            if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeStickers with Nitro currently.");
+            const getStickerSendability = WebpackModules.getByProps("getStickerSendability"),
+            { getStickerAssetUrl } = WebpackModules.getByProps("getStickerAssetUrl"),
+            { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
+            { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker");
 
-	    // fetch packs
-            let packs,
-            ids;
-	    
-            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers@main/packs.json").then(r=>r.json()).then(j=>packs=j);
-            fetch("https://cdn.jsdelivr.net/gh/discord-stickers/FreeStickers@main/stickerIds.json").then(r=>r.json()).then(j=>ids=j);
+            if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeStickers with Nitro.");
 		
-	    //patch everything
-            Patcher.instead(WebpackModules.getByProps("getStickerAssetUrl"), "getStickerAssetUrl", (_, [args], orig) => {
-                if (ids[args.id]) return ids[args.id]
-                return orig(args);
-            })
-		
-            Patcher.before(WebpackModules.getByProps("useStickersGrid"), "useStickersGrid", (_, [args]) => {
-                if (args.stickersCategories.length != 32) {
-                    packs.forEach(pack => args.stickersCategories.push(pack))
-                    args.listWidth = 360
+	        // patch getStickerSendability to send sticker url and inject CSS to remove grayscale
+            Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
+                if (document.querySelector(".drawerSizingWrapper-17Mss4")) { // check if expression viewer open lol
+                    if (args.format_type == 1 || args.format_type == 2) {
+                        closeExpressionPicker();
+                        return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
+                            content: " " + getStickerAssetUrl(args)
+                        });
+                    }
                 }
-            })
-		
-            Patcher.before(WebpackModules.getByProps("isSendableSticker"), "isSendableSticker", (_, [args]) => {
-                if (args.free_stickers) {
-                    WebpackModules.getByProps("closeExpressionPicker").closeExpressionPicker()
-                    return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
-                        content: " "+WebpackModules.getByProps("getStickerAssetUrl").getStickerAssetUrl(args) 
-                    })
-                }
-            })
+            });
 	    
-	    // hide search and sidebar
-            BdApi.injectCSS("clean", `.header-2k4I2o {display: none;} .categoryList-xW5xXr {display: none;} .wrapper-2iFQJ9 {grid-template-columns: 0px;} .row-2psonc {column-gap: 50px !important;} #sticker-picker-grid > div > div.scroller-3gAZLs.thin-1ybCId.scrollerBase-289Jih > div.listItems-1uJgMC {left: 14px !important;}`)
+            BdApi.injectCSS("clean", `.stickerUnsendable-2q_h2B{webkit-filter: grayscale(0%) !important;filter: grayscale(0%) !important;}`)
         }
 
         onStop() {
