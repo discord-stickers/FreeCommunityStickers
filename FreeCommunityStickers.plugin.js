@@ -1,8 +1,8 @@
 /**
- * @name FreeStickers
+ * @name FreeCommunityStickers
  * @authorLink https://github.com/discord-stickers
- * @website https://github.com/discord-stickers/FreeStickers
- * @source https://github.com/discord-stickers/FreeStickers/FreeStickers.plugin.js
+ * @website https://github.com/discord-stickers/FreeCommunityStickers
+ * @source https://github.com/discord-stickers/FreeCommunityStickers/FreeCommunityStickers.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -29,7 +29,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"info":{"name":"FreeStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.1.0","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeStickers","github_raw":"https://github.com/discord-stickers/FreeStickers/FreeStickers.plugin.js"},"main":"index.js"};
+    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.1.0","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://github.com/discord-stickers/FreeCommunityStickers/FreeCommunityStickers.plugin.js"},"main":"index.js"};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
@@ -56,7 +56,7 @@ module.exports = (() => {
 
     const {Patcher, WebpackModules, DiscordAPI, Toasts} = Library;
 
-    return class FreeStickers extends Plugin {
+    return class FreeCommunityStickers extends Plugin {
         constructor() {
             super();
         }
@@ -67,7 +67,7 @@ module.exports = (() => {
             { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
             { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker");
 
-            if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeStickers with Nitro.");
+            if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeCommunityStickers with Nitro.");
 		
 	        // patch getStickerSendability to send sticker url and inject CSS to remove grayscale
             Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
