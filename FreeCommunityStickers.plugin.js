@@ -59,7 +59,7 @@ module.exports = (() => {
         { getStickerAssetUrl } = WebpackModules.getByProps("getStickerAssetUrl"),
         { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
         { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker"),
-        { drawerSizingWrapper } = WebpackModules.getByProps("drawerSizingWrapper"),
+        { stickerAsset } = WebpackModules.getByProps("stickerAsset"),
         { stickerUnsendable } = WebpackModules.getByProps("stickerUnsendable");
 
     return class FreeCommunityStickers extends Plugin {
@@ -70,10 +70,10 @@ module.exports = (() => {
         onStart() {
             if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeCommunityStickers with Nitro.");
 		
-	        // patch getStickerSendability to send sticker url and inject CSS to remove grayscale
+	        // patch getStickerSendability to send sticker url
             Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
-                if (document.querySelector(`.${drawerSizingWrapper}`)) { // check if expression viewer open lol
-                    if (args.format_type == 1 || args.format_type == 2) {
+                if (document.querySelector(`.${stickerAsset}:hover`)) { // check if hovering over sticker to prevent bugs
+                    if (args.format_type != 3) {
                         closeExpressionPicker();
                         return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
                             content: " " + getStickerAssetUrl(args).replace(/=[0-9]{3}/g, "=160")
@@ -81,11 +81,13 @@ module.exports = (() => {
                     }
                 }
             });
-	    
+
+            // inject CSS to remove grayscale
             BdApi.injectCSS("clean", `.${stickerUnsendable}{webkit-filter: grayscale(0%) !important;filter: grayscale(0%) !important;}`)
         }
 
         onStop() {
+            // unpatch
             Patcher.unpatchAll();
             BdApi.clearCSS("clean")
         }
