@@ -54,24 +54,25 @@ module.exports = (() => {
     } : (([Plugin, Api]) => {
         const plugin = (Plugin, Library) => {
 
-    const {Patcher, WebpackModules, DiscordAPI, Toasts} = Library;
+    const {Patcher, WebpackModules, DiscordAPI, Toasts} = Library,
+        getStickerSendability = WebpackModules.getByProps("getStickerSendability"),
+        { getStickerAssetUrl } = WebpackModules.getByProps("getStickerAssetUrl"),
+        { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
+        { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker"),
+        { drawerSizingWrapper } = WebpackModules.getByProps("drawerSizingWrapper"),
+        { stickerUnsendable } = WebpackModules.getByProps("stickerUnsendable");
 
     return class FreeCommunityStickers extends Plugin {
         constructor() {
             super();
         }
-
+        
         onStart() {
-            const getStickerSendability = WebpackModules.getByProps("getStickerSendability"),
-            { getStickerAssetUrl } = WebpackModules.getByProps("getStickerAssetUrl"),
-            { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
-            { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker");
-
             if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeCommunityStickers with Nitro.");
 		
 	        // patch getStickerSendability to send sticker url and inject CSS to remove grayscale
             Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
-                if (document.querySelector(".drawerSizingWrapper-17Mss4")) { // check if expression viewer open lol
+                if (document.querySelector(`.${drawerSizingWrapper}`)) { // check if expression viewer open lol
                     if (args.format_type == 1 || args.format_type == 2) {
                         closeExpressionPicker();
                         return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
@@ -81,7 +82,7 @@ module.exports = (() => {
                 }
             });
 	    
-            BdApi.injectCSS("clean", `.stickerUnsendable-2q_h2B{webkit-filter: grayscale(0%) !important;filter: grayscale(0%) !important;}`)
+            BdApi.injectCSS("clean", `.${stickerUnsendable}{webkit-filter: grayscale(0%) !important;filter: grayscale(0%) !important;}`)
         }
 
         onStop() {
