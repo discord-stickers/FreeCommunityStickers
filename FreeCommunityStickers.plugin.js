@@ -56,9 +56,11 @@ module.exports = (() => {
 
     const {Patcher, WebpackModules, DiscordAPI, Toasts} = Library,
         getStickerSendability = WebpackModules.getByProps("getStickerSendability"),
+        isSendableSticker = findByProps("isSendableSticker"),
         { getStickerAssetUrl } = WebpackModules.getByProps("getStickerAssetUrl"),
         { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
         { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker"),
+        { input, disabled } = findByProps("disabled", "tagLabel"),
         { stickerAsset } = WebpackModules.getByProps("stickerAsset"),
         { stickerUnsendable } = WebpackModules.getByProps("stickerUnsendable");
 
@@ -69,21 +71,29 @@ module.exports = (() => {
         
         onStart() {
             if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeCommunityStickers with Nitro.");
+
+            // inject CSS to remove grayscale
+            BdApi.injectCSS("clean", `.${stickerUnsendable} {
+                webkit-filter: grayscale(0%) !important;
+                filter: grayscale(0%) !important;
+            }`)
 		
 	        // patch getStickerSendability to send sticker url
             Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
-                if (document.querySelector(`.${stickerAsset}:hover`)) { // check if hovering over sticker to prevent bugs
-                    if (args.format_type != 3) {
-                        closeExpressionPicker();
-                        return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
-                            content: " " + getStickerAssetUrl(args).replace(/=[0-9]{3}/g, "=160")
-                        });
-                    }
-                }
+                if (!document.querySelector(`.${stickerAsset}:hover`)) return; // check if hovering over sticker to prevent bugs
+                if (args.format_type == 3) return closeExpressionPicker();
+                closeExpressionPicker();
+                return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
+                    content: ` ${getStickerAssetUrl(args).replace(/=[0-9]{3}/g, "=160")}`
+                });
             });
 
-            // inject CSS to remove grayscale
-            BdApi.injectCSS("clean", `.${stickerUnsendable}{webkit-filter: grayscale(0%) !important;filter: grayscale(0%) !important;}`)
+            Patcher.after(isSendableSticker, "isSendableSticker", () => {
+                if (!document.querySelector(`.${input}`) && !document.querySelector(`.${disabled}`)) return;
+                document.querySelector(`.${input}`)?.removeAttribute("disabled");
+                document.querySelector(`.${input}`).placeholder = "Search for stickers";
+                document.querySelector(`.${disabled}`)?.classList.remove(disabled);
+            })
         }
 
         onStop() {
