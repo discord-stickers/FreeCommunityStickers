@@ -29,7 +29,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.1.0","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://github.com/discord-stickers/FreeCommunityStickers/FreeCommunityStickers.plugin.js"},"main":"index.js"};
+    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.2.0","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://github.com/discord-stickers/FreeCommunityStickers/FreeCommunityStickers.plugin.js"},"main":"index.js"};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
@@ -62,7 +62,8 @@ module.exports = (() => {
         { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker"),
         { input, disabled } = findByProps("disabled", "tagLabel"),
         { stickerAsset } = WebpackModules.getByProps("stickerAsset"),
-        { stickerUnsendable } = WebpackModules.getByProps("stickerUnsendable");
+        { stickerUnsendable } = WebpackModules.getByProps("stickerUnsendable"),
+        unpatch = [];
 
     return class FreeCommunityStickers extends Plugin {
         constructor() {
@@ -76,30 +77,33 @@ module.exports = (() => {
             BdApi.injectCSS("clean", `.${stickerUnsendable} {
                 webkit-filter: grayscale(0%) !important;
                 filter: grayscale(0%) !important;
-            }`)
+            }`);
 		
 	        // patch getStickerSendability to send sticker url
-            Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
+            unpatch.push(Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
                 if (!document.querySelector(`.${stickerAsset}:hover`)) return; // check if hovering over sticker to prevent bugs
                 if (args.format_type == 3) return closeExpressionPicker();
                 closeExpressionPicker();
                 return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
                     content: ` ${getStickerAssetUrl(args).replace(/=[0-9]{3}/g, "=160")}`
                 });
-            });
+            }));
 
-            Patcher.after(isSendableSticker, "isSendableSticker", () => {
+            // patch isSendableSticker to make search work
+            unpatch.push(Patcher.after(isSendableSticker, "isSendableSticker", () => {
                 if (!document.querySelector(`.${input}`) && !document.querySelector(`.${disabled}`)) return;
                 document.querySelector(`.${input}`)?.removeAttribute("disabled");
                 document.querySelector(`.${input}`).placeholder = "Search for stickers";
                 document.querySelector(`.${disabled}`)?.classList.remove(disabled);
-            })
+            }));
         }
 
         onStop() {
             // unpatch
-            Patcher.unpatchAll();
-            BdApi.clearCSS("clean")
+            unpatch.forEach(patch => {
+                patch();
+            });
+            BdApi.clearCSS("clean");
         }
     }
 };
