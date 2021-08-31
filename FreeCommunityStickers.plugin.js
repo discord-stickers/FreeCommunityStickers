@@ -56,11 +56,11 @@ module.exports = (() => {
 
     const {Patcher, WebpackModules, DiscordAPI, Toasts} = Library,
         getStickerSendability = WebpackModules.getByProps("getStickerSendability"),
-        isSendableSticker = findByProps("isSendableSticker"),
+        isSendableSticker = WebpackModules.getByProps("isSendableSticker"),
         { getStickerAssetUrl } = WebpackModules.getByProps("getStickerAssetUrl"),
         { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
         { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker"),
-        { input, disabled } = findByProps("disabled", "tagLabel"),
+        { input, disabled } = WebpackModules.getByProps("disabled", "tagLabel"),
         { stickerAsset } = WebpackModules.getByProps("stickerAsset"),
         { stickerUnsendable } = WebpackModules.getByProps("stickerUnsendable"),
         unpatch = [];
