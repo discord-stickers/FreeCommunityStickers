@@ -3,6 +3,7 @@
  * @authorLink https://github.com/discord-stickers
  * @website https://github.com/discord-stickers/FreeCommunityStickers
  * @source https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
@@ -29,7 +30,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.2.0","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js"},"main":"index.js"};
+    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.2.1","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js"},"main":"index.js"};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
