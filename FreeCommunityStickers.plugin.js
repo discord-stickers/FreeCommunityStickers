@@ -82,7 +82,9 @@ module.exports = (() => {
 		
 	        // patch getStickerSendability to send sticker url
             unpatch.push(Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
-                if (!document.querySelector(`.${stickerAsset}:hover`)) return; // check if hovering over sticker to prevent bugs
+                // first 2 checks are to fix bugs and 3rd check is to prevent official discord stickers from not working 'cause copyright
+                if (document.activeElement.className == input) return document.querySelector(`.${input}`).blur();
+                if (!document.querySelector(`.${stickerAsset}:hover`)) return;
                 if (args.format_type == 3 || args?.sort_value) return closeExpressionPicker();
                 closeExpressionPicker();
                 return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
