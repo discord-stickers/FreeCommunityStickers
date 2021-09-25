@@ -30,7 +30,7 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.2.1","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js"},"main":"index.js"};
+    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.2.2","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js"},"main":"index.js"};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
@@ -56,14 +56,11 @@ module.exports = (() => {
         const plugin = (Plugin, Library) => {
 
     const {Patcher, WebpackModules, DiscordAPI, Toasts} = Library,
-        getStickerSendability = WebpackModules.getByProps("getStickerSendability"),
-        isSendableSticker = WebpackModules.getByProps("isSendableSticker"),
-        { getStickerAssetUrl } = WebpackModules.getByProps("getStickerAssetUrl"),
         { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
         { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker"),
         { input, disabled } = WebpackModules.getByProps("disabled", "tagLabel"),
-        { stickerAsset } = WebpackModules.getByProps("stickerAsset"),
         { stickerUnsendable } = WebpackModules.getByProps("stickerUnsendable"),
+        sticker = WebpackModules.find((m) => m?.default?.displayName === "Sticker")
         unpatch = [];
 
     return class FreeCommunityStickers extends Plugin {
@@ -79,25 +76,23 @@ module.exports = (() => {
                 webkit-filter: grayscale(0%) !important;
                 filter: grayscale(0%) !important;
             }`);
-		
-	        // patch getStickerSendability to send sticker url
-            unpatch.push(Patcher.before(getStickerSendability, "getStickerSendability", (_, [args]) => {
-                // first 2 checks are to fix bugs and 3rd check is to prevent official discord stickers from not working 'cause copyright
-                if (document.activeElement.className == input) return document.querySelector(`.${input}`).blur();
-                if (!document.querySelector(`.${stickerAsset}:hover`)) return;
-                if (args.format_type == 3 || args?.sort_value) return closeExpressionPicker();
-                closeExpressionPicker();
-                return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
-                    content: ` ${getStickerAssetUrl(args).replace(/=[0-9]{3}/g, "=160")}`
-                });
-            }));
 
-            // patch isSendableSticker to make search work
-            unpatch.push(Patcher.after(isSendableSticker, "isSendableSticker", () => {
-                if (!document.querySelector(`.${input}`) && !document.querySelector(`.${disabled}`)) return;
-                document.querySelector(`.${input}`)?.removeAttribute("disabled");
-                document.querySelector(`.${input}`).placeholder = "Search for stickers";
-                document.querySelector(`.${disabled}`)?.classList.remove(disabled);
+            // patch Sticker component to send sticker url & fix search (in a hacky way)
+            unpatch.push(Patcher.before(sticker, "default", (_, [args]) => {
+                if (args?.sticker?.id && document.querySelector(`img[src*='${args?.sticker?.id}']`)) {
+                    let img = document.querySelector(`img[src*='${args?.sticker?.id}']`);
+
+                    document.querySelector(`.${input}`)?.removeAttribute("disabled");
+                    document.querySelector(`.${input}`).placeholder = "Search for stickers";
+                    document.querySelector(`.${disabled}`)?.classList.remove(disabled);
+
+                    img.onclick = () => {
+                        closeExpressionPicker();
+                        return ComponentDispatch.dispatchToLastSubscribed("INSERT_TEXT", {
+                            content: ` ${img.src.replace(/=[0-9]{2}/g, "=160")}`
+                        });
+                    }
+                }
             }));
         }
 
