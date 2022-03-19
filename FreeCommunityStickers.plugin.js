@@ -30,7 +30,20 @@
 @else@*/
 
 module.exports = (() => {
-    const config = {"info":{"name":"FreeCommunityStickers","authors":[{"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"}, {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}],"version":"1.2.2","description":"Unlocking Discord Stickers for everyone.","github":"https://github.com/discord-stickers/FreeCommunityStickers","github_raw":"https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js"},"main":"index.js"};
+    const config = {
+    "info": {
+        "name":"FreeCommunityStickers",
+        "authors":[
+            {"name":"lemons","discord_id":"407348579376693260","github_username":"respecting"},
+            {"name":"creatable","discord_id":"597905003717459968","github_username":"Cr3atable"}, 
+            {"name":"Frinzie"}
+        ],
+        "version":"1.2.3",
+        "description":"Unlocking Discord Stickers for everyone.",
+        "github":"https://github.com/discord-stickers/FreeCommunityStickers",
+        "github_raw":"https://raw.githubusercontent.com/discord-stickers/FreeCommunityStickers/main/FreeCommunityStickers.plugin.js"},
+    "main":"index.js"
+};
 
     return !global.ZeresPluginLibrary ? class {
         constructor() {this._config = config;}
@@ -44,7 +57,7 @@ module.exports = (() => {
                 cancelText: "Cancel",
                 onConfirm: () => {
                     require("request").get("https://rauenzi.github.io/BDPluginLibrary/release/0PluginLibrary.plugin.js", async (error, response, body) => {
-                        if (error) return require("electron").shell.openExternal("https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js");
+                        if (error) return require("electron").shell.openExternal("https://betterdiscord.app/Download?id=9");
                         await new Promise(r => require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "0PluginLibrary.plugin.js"), body, r));
                     });
                 }
@@ -55,7 +68,7 @@ module.exports = (() => {
     } : (([Plugin, Api]) => {
         const plugin = (Plugin, Library) => {
 
-    const {Patcher, WebpackModules, DiscordAPI, Toasts} = Library,
+    const {Patcher, WebpackModules, DiscordModules, Toasts} = Library,
         { ComponentDispatch } = WebpackModules.getByProps("ComponentDispatch"),
         { closeExpressionPicker } =  WebpackModules.getByProps("closeExpressionPicker"),
         { input, disabled } = WebpackModules.getByProps("disabled", "tagLabel"),
@@ -69,7 +82,7 @@ module.exports = (() => {
         }
         
         onStart() {
-            if (DiscordAPI.currentUser.discordObject.premiumType == 2) return Toasts.error("You cannot use FreeCommunityStickers with Nitro.");
+            if (DiscordModules.UserStore.getCurrentUser().premiumType == 2) return Toasts.error("You cannot use FreeCommunityStickers with Nitro.");
 
             // inject CSS to remove grayscale
             BdApi.injectCSS("clean", `.${stickerUnsendable} {
